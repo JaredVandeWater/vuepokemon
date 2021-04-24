@@ -18,9 +18,9 @@
                 required
                 type="number"
                 class="form-control"
-                placeholder="# between 1-649"
+                placeholder="# between 1-898"
                 min="1"
-                max="649"
+                max="898"
                 v-model="state.query"
               />
             </div>
@@ -62,10 +62,9 @@ export default {
 </script>
 
 
-<style scoped>
-
-.mybg {
-  background-image: url("./assets/pokemons.png");
+<style lang="scss" scoped>
+.mybg{
+  
 }
 </style>
 

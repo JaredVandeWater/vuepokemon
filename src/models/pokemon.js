@@ -1,7 +1,7 @@
 export default class Pokemon {
     constructor({ name, sprites, id }) {
         this.name = capitalizeFirstLetter(name)
-        this.img = sprites.other.dream_world.front_default
+        this.img = sprites.other["official-artwork"].front_default
         this.id = id
     }
 
